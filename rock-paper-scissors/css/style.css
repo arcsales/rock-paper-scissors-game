@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272e;
+    color: #fff;
+    font-family: 'Asap', sans-serif;
+}
+
+header {
+    width: auto;
+    background-color: #fff;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+}
+
+.inner-content {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.score {
+    display: inline-block;
+}
+
+.player {
+    float: left;
+    padding-top: 19%;
+    padding-left: 15%;
+}
+
+.computer {
+    float: right;
+    padding-top: 19%;
+    padding-right: 10%;
+}
+
+.score-board {
+    border: 5px solid red;
+    margin-top: 25px;
+}
+
+.message {
+    padding: 45px 0px;
+}
+
+.action-mess-box {
+    padding-top: 45px;
+}
+
+.action-messages {
+    font-size: 3em;
+}
+
+#player-score {
+    color: #fff;
+}
+
+#computer-score {
+    color: #fff;
+}
+
+
+/* Extra extra small devices (phones, below 600px) */
+
+@media only screen and (max-width: 400px) {
+    .player {
+        float: left;
+        padding-top: 17%;
+        padding-left: 5%;
+    }
+    .computer {
+        float: right;
+        padding-top: 17%;
+        padding-right: 5%;
+    }
+    .images {
+        width: 80px;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .message {
+        font-size: 1.5rem;
+        padding: 25px 0px;
+    }
+    .score-board {
+        font-size: 1.1em;
+        padding: 10px 115px 10px 115px;
+    }
+    .comp-text {
+        font-size: 1.0em;
+    }
+    .user-text {
+        font-size: 1.0em;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 400px) {
+    .images {
+        width: 104px;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .message {
+        font-size: 2rem;
+    }
+    .score-board {
+        font-size: 1.5em;
+        padding: 20px 120px 20px 120px;
+    }
+    .comp-text {
+        font-size: 1.1em;
+    }
+    .user-text {
+        font-size: 1.1em;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .images {
+        width: 150px;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .message {
+        font-size: 2.5rem;
+    }
+    .score-board {
+        font-size: 2.5em;
+        padding: 40px 160px 40px 160px;
+    }
+    .comp-text {
+        font-size: 1.3em;
+    }
+    .user-text {
+        font-size: 1.3em;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .images {
+        width: 180px;
+        padding: 25px;
+    }
+    .message {
+        font-size: 3rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .score-board {
+        font-size: 3em;
+        padding: 50px 200px 50px 200px;
+    }
+    .comp-text {
+        font-size: 1.5em;
+    }
+    .user-text {
+        font-size: 1.5em;
+    }
+}
